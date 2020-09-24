@@ -3,9 +3,9 @@ $(function () {
     infinite: true,
     fade: true,
     prevArrow:
-      '<img src="../img/arrow-left.svg" class="slider-arrows slider-arrows__left "></img>',
+      '<img src="../img/arrow-left.svg" class="slider-arrows slider-arrows__left "/>',
     nextArrow:
-      '<img src="../img/arrow-right.svg"  class="slider-arrows slider-arrows__right"></img>',
+      '<img src="../img/arrow-right.svg"  class="slider-arrows slider-arrows__right" />',
     asNavFor: ".slider-dots",
   });
   $(".slider-dots").slick({
