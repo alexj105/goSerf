@@ -101,7 +101,7 @@ $(function () {
   });
 
   $(
-    '<div class="quantity-nav"><div class="quantity-button quantity-down"><img class="minus" src="../img/minus.svg" alt=""></img></div><div class="quantity-button quantity-up"><img class="plus" src="../img/plus.svg" alt=""></img></div></div>'
+    '<div class="quantity-nav"><div class="quantity-button quantity-down"><img class="minus" src="../img/minus.svg" alt=""/></div><div class="quantity-button quantity-up"><img class="plus" src="../img/plus.svg" alt=""></img></div></div>'
   ).insertAfter(".quantity input");
   $(".quantity").each(function () {
     var spinner = $(this),
