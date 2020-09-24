@@ -3,9 +3,9 @@ $(function () {
     infinite: true,
     fade: true,
     prevArrow:
-      '<img src="../img/arrow-left.svg" class="slider-arrows slider-arrows__left "></img>',
+      '<img src="./img/arrow-left.svg" class="slider-arrows slider-arrows__left "></img>',
     nextArrow:
-      '<img src="../img/arrow-right.svg"  class="slider-arrows slider-arrows__right"></img>',
+      '<img src="./img/arrow-right.svg"  class="slider-arrows slider-arrows__right"></img>',
     asNavFor: ".slider-dots",
   });
   $(".slider-dots").slick({
@@ -17,9 +17,9 @@ $(function () {
     slidesToShow: 4,
     slidesToScroll: 1,
     prevArrow:
-      '<img src="../img/arrow-left.svg" class="slider-arrows slider-arrows__left "></img>',
+      '<img src="./img/arrow-left.svg" class="slider-arrows slider-arrows__left "></img>',
     nextArrow:
-      '<img src="../img/arrow-right.svg"  class="slider-arrows slider-arrows__right"></img>',
+      '<img src="./img/arrow-right.svg"  class="slider-arrows slider-arrows__right"></img>',
     asNavFor: ".slider-map__wrapper",
     responsive: [
       {
@@ -95,13 +95,13 @@ $(function () {
     infinite: true,
     fade: true,
     prevArrow:
-      '<img src="../img/arrow-left.svg" class="slider-arrows slider-arrows__left "></img>',
+      '<img src="./img/arrow-left.svg" class="slider-arrows slider-arrows__left "></img>',
     nextArrow:
-      '<img src="../img/arrow-right.svg"  class="slider-arrows slider-arrows__right"></img>',
+      '<img src="./img/arrow-right.svg"  class="slider-arrows slider-arrows__right"></img>',
   });
 
   $(
-    '<div class="quantity-nav"><div class="quantity-button quantity-down"><img class="minus" src="../img/minus.svg" alt=""></img></div><div class="quantity-button quantity-up"><img class="plus" src="../img/plus.svg" alt=""></img></div></div>'
+    '<div class="quantity-nav"><div class="quantity-button quantity-down"><img class="minus" src="./img/minus.svg" alt=""></img></div><div class="quantity-button quantity-up"><img class="plus" src="./img/plus.svg" alt=""></img></div></div>'
   ).insertAfter(".quantity input");
   $(".quantity").each(function () {
     var spinner = $(this),
