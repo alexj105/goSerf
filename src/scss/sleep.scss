@@ -1,0 +1,70 @@
+.sleep__subtitle {}
+
+.srtarts-list {
+    display: inline-block;
+    padding-top: 10px;
+    position: relative;
+    top: 10px;
+
+    li {
+        img {}
+
+        display: inline-block;
+        padding-top: 10px;
+    }
+}
+
+
+
+.quantity {
+    position: relative;
+}
+
+
+
+.quantity input {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 800;
+    width: 65px;
+    float: left;
+    display: block;
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: #fff;
+    margin-top: -3px;
+}
+
+.quantity input:focus {
+    outline: 0;
+}
+
+.quantity-nav {
+    position: absolute;
+    top: 50px;
+    right: 55px;
+}
+
+.quantity-button {
+    display: inline-block;
+    padding: 5px;
+
+    .plus {
+        width: 20px;
+        height: 20px;
+    }
+
+    .minus {
+        width: 20px;
+        line-height: 20px;
+        padding: 7px 3px;
+        margin-top: -17px;
+    }
+}
+
+.sleep-item__bg {
+    background-image: url(../img/Hammock.png), url(../img/Frangipani.png), url(../img/frangipani-big.png);
+    background-position: 100% 450px, 100% 640px, 100% 1000px;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+}
